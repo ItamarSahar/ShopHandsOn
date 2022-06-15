@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.app-header {
+	width: 100%;
+
+	a {
+		text-decoration: none;
+		margin-inline-end: 10px;
+		font-size: 1.1rem;
+		&:hover {
+			text-decoration: overline;
+		}
+	}
+}
+
+.shop {
+	width: 100%;
+}

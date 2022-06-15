@@ -1,0 +1,13 @@
+.stores-list {
+	width: 80%;
+	margin: auto;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 150px);
+	gap: 14px;
+
+	.store-img {
+		width: 150px;
+		height: 150px;
+	}
+}
